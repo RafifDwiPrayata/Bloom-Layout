@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    background-color: #ececec;
+}
+
+header {
+    background-color: #222831;
+    padding: 20px 0;
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: gray
+}
+
+.hero {
+    background-color: #393E46;
+    padding: 40px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 60%;
+}
+
+.hero h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.hero p {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: padding 2s;
+}
+
+.hero .btn:hover {
+    padding: 10px 60px;
+}
+
+.hero-images {
+    display: flex;
+    gap: 10px;
+}
+
+.hero-images img {
+    width: 450px;
+    height: 300px;
+}
+
+.content {
+    padding: 50px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.content h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #343a40;
+    padding: 20px;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.image{
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.card img:hover {
+    transform: scale(1.5);
+}
+
+.card h4 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.card .btn {
+    background-color: white;
+    color: black;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: color 0.3s ease;
+}
+
+.card .btn:hover {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 50px;
+}
+
+.footer-content {
+    display: flex;
+}
+
+.footer-container {
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.latest-posts .h {
+
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.date {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.date-description {
+    margin-left: 20px;
+
+}
+
+.date-description p {
+    font-size: 10px;
+}
+
+.date-container {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.date-container h4 {
+    margin-top: 4px;
+}
+
+.date-container h4,
+.date-container p {
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-size: 13px;
+    transition: color 0.3s ease;
+}
+
+.date-container:hover {
+    background-color: black;
+}
+
+.date-container:hover h4,
+.date-container:hover p {
+    color: white;
+}
+
+
+.about {
+    max-width: 40%;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.about h4,
+.about p {
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 15px;
+}
+
+.contact {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.contact ul {
+    list-style: none;
+}
+
+.contact ul li {
+    margin-top: 10px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+
+}
+
+.bawah {
+    margin: 20px;
+    text-align: center;
+}
